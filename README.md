@@ -86,7 +86,7 @@ Each property below is a page on APIs.io carrying the machine-readable artifact 
 
 Which operations an agent can call, which act, and which need a human in the loop.
 
-- [9Bot Com Br Agentic Access](https://apis.io/agentic-access/9bot-com-br/9bot-com-br-agentic-access/)
+- [9bot Agentic Access](https://apis.io/agentic-access/9bot-com-br/9bot-com-br-agentic-access/)
 
 #### JSON Schema (6)
 
@@ -105,6 +105,12 @@ Linked-data contexts for the provider's vocabulary.
 
 - [9Bot Com Br Context](https://apis.io/jsonld/9bot-com-br/9bot-com-br-context/)
 
+#### Overlays (1)
+
+OpenAPI overlays, including conversational phrasing for each operation.
+
+- [9bot Health Api Certification Overlay](https://apis.io/overlays/9bot-com-br/9bot-com-br-health-api-certification-overlay/)
+
 #### Governance rules (1)
 
 Spectral rulesets for the provider's contracts.
@@ -115,27 +121,27 @@ Spectral rulesets for the provider's contracts.
 
 Authentication, trust centre, and vulnerability disclosure.
 
-- [9Bot Com Br Authentication](https://apis.io/security/9bot-com-br/9bot-com-br-authentication/)
-- [9Bot Com Br Domain Security](https://apis.io/security/9bot-com-br/9bot-com-br-domain-security/)
-- [9Bot Com Br Vulnerability Disclosure](https://apis.io/security/9bot-com-br/9bot-com-br-vulnerability-disclosure/)
+- [9bot Authentication](https://apis.io/security/9bot-com-br/9bot-com-br-authentication/)
+- [9bot Domain Security](https://apis.io/security/9bot-com-br/9bot-com-br-domain-security/)
+- [9bot Vulnerability Disclosure](https://apis.io/security/9bot-com-br/9bot-com-br-vulnerability-disclosure/)
 
 #### OAuth scopes (1)
 
 The permissions the API asks for.
 
-- [9Bot Com Br Scopes](https://apis.io/scopes/9bot-com-br/9bot-com-br-scopes/)
+- [9bot Scopes](https://apis.io/scopes/9bot-com-br/9bot-com-br-scopes/)
 
 #### Plans and pricing (1)
 
 Published plans, tiers and prices.
 
-- [9Bot Com Br Plans Pricing](https://apis.io/plans/9bot-com-br/9bot-com-br-plans-pricing/)
+- [9bot Plans Pricing](https://apis.io/plans/9bot-com-br/9bot-com-br-plans-pricing/)
 
 #### Rate limits (1)
 
 Published request limits.
 
-- [9Bot Com Br Rate Limits](https://apis.io/rate-limits/9bot-com-br/9bot-com-br-rate-limits/)
+- [9bot Rate Limits](https://apis.io/rate-limits/9bot-com-br/9bot-com-br-rate-limits/)
 
 ## Where to find this API
 
@@ -153,34 +159,34 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 61.0** — strong · rubric 0.25.0 · scored 2026-10-31
+**Kin Score 58.1** — strong · rubric 0.28.1 · scored 2026-11-21
 
 | Facet | Score |
 |---|---|
-| Discoverability | 66.1 |
-| Contract quality | 61.2 |
-| Contract governance | 79.1 |
-| Operational transparency | 26.3 |
+| Discoverability | 83.9 |
+| Contract quality | 64.2 |
+| Contract governance | 35.6 |
+| Operational transparency | 23.8 |
 | Developer ergonomics | 58.8 |
-| Access clarity | 53.2 |
+| Access clarity | 57.4 |
 
-**Agent readiness 62.2** — agent-ready (gated down from agent-native)
+**Agent readiness 60.3** — agent-ready (gated down from agent-native)
 
 | Agent-readiness dimension | Result |
 |---|---|
 | Spec Presence | yes |
-| Agentic Access | unknown |
+| Agentic Access | derived (partial credit) |
 | Reversibility Documented | — |
-| MCP Server | documented (partial credit) |
+| MCP Server | — |
 | Auth Clarity | served (partial credit) |
 | Idempotency | — |
-| Error Semantics | derived (partial credit) |
+| Error Semantics | verified |
 | OpenAPI Examples | partial |
 | Rate Limit Signal | verified |
 | Event Surface Described | — |
 | Agent Skills | unknown |
 | Well Known Catalog | yes |
-| Consent Identity | — |
+| Consent Identity | deployed |
 | Agent Card | conformant |
 | Dry Run Mode | — |
 | Delegated Identity | served (partial credit) |
@@ -189,6 +195,10 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Agentic Commerce | — |
 | Pagination Ratio | na |
 | Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+| Onboarding Descriptor | — |
+| Dns Aid Index | na |
+| Markdown Negotiation | na |
 
 **Regulatory alignment 40.2** — Horizontal (data, software, accessibility, platform)
 
